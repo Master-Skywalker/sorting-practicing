@@ -9,5 +9,5 @@ int main(){
 	for (int i=0;i<arsize;i++)
 		std::cout<<i<<"! = "<<factorials[i]<<std::endl;
 	return 0;
-}
+}//这是一个计算阶乘的简单算法
 	
