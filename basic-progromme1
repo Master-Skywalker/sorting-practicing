@@ -1,0 +1,13 @@
+#include<iostream>
+const int arsize=16;
+
+int main(){
+	long long factorials[arsize];
+	factorials[0]=factorials[1]=1;//0 and 1 的阶乘是1 
+	for (int i=2;i<arsize;i++)
+		factorials[i]=i*factorials[i-1];
+	for (int i=0;i<arsize;i++)
+		std::cout<<i<<"! = "<<factorials[i]<<std::endl;
+	return 0;
+}
+	
